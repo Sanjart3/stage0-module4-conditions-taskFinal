@@ -16,7 +16,7 @@ public class SeasonDeterminer {
                 System.out.println("Autmn");
                 break;
             default:
-                System.out.println("Wrong month number!");
+                System.out.println("Wrong month number");
         }
     }
 }
