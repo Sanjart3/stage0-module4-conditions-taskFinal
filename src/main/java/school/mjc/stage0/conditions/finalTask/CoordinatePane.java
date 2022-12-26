@@ -10,7 +10,7 @@ public class CoordinatePane {
                 if (x>=0) side="first";
                 else side = "second";
             }else {
-                if (x>=0) side="third";
+                if (x<=0) side="third";
                 else side = "fourth";
             }
             System.out.println(side);
